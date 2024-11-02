@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    padding-top: 1%;
+
+}
+
+ul {
+    height: 38px;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    position: fixed;
+}
+
+.logo {
+    height: 38px;
+    cursor: pointer;
+
+}
+
+.avatar {
+    height: 38px;
+
+
+}
+
+.video {
+    width: 100%;
+    min-height: 80%;
+
+}
+
+.capa {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    width: 40%;
+    font-family: "Montserrat", sans-serif
+}
+
+.titulo {
+    color: aquamarine;
+    font-size: 80px;
+    margin-bottom: 5%;
+    font-weight: bold;
+
+}
+
+.sober {
+    color: aquamarine;
+    font-size: 23px;
+    margin-bottom: 10%;
+}
+
+.batao-Assistir {
+    color: black;
+    background-color: wheat;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.botao-informações {
+    font-size: 20px;
+    color: black;
+    background-color: rgba(242, 235, 235, 0.35);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.imgagem-carrosel {
+    height: 210px;
+    cursor: pointer;
+}
+
+#carouselExampleIndicators {
+    margin: 0%;
+    position: absolute;
+    bottom: -10%;
+    left: 1%;
+    background-color: transparent;
+}
+
+.titulos-filmes {
+    color: wheat;
+    font-size: 150%;
+
+}
+
+.boco-info {
+    display: none;
+    z-index: 10;
+    position: fixed;
+    z-index: 10;
+    top: -50%;
+    left: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.info {
+    background-color: #181818;
+    margin: 30% auto;
+    padding: 20px;
+    color: white;
+    width: 60%;
+
+}
+
+#entra {
+    display: block;
+    z-index: 12;
+    position: fixed;
+    top: -50%;
+    left: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.login {
+    background-color: #181818b2;
+    margin: 30% auto ;
+    padding: 200px;
+    color: white;
+    width: 10%;
+
+}
+
+.tela-de-login {
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: url(img/tela\ login.jpeg);
+    background-size: cover;
+
+}
+
+.texto {
+    color: red;
+}
